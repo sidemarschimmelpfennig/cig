@@ -1,6 +1,7 @@
 <?php
 
 use App\Controllers\Auth;
+use App\Controllers\Home;
 use CodeIgniter\Router\RouteCollection;
 
 
@@ -9,3 +10,5 @@ use CodeIgniter\Router\RouteCollection;
  */
 
 $routes->get("/", [Auth::class, 'index']);
+
+$routes->get("/home", [Home::class, 'index']);
