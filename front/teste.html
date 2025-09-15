@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Responsivo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #e5e5e5;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* --- TOPBAR --- */
+    .topbar {
+      background: #8b0000;
+      color: white;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px 20px;
+      font-size: 14px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      padding: 20px;
+    }
+
+    .topbar .user {
+      margin-right: 15px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* --- SIDEBAR --- */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 220px;
+      height: 100%;
+      background: #400000;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      padding-top: 20px;
+      transition: left 0.3s ease;
+      z-index: 1001;
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .sidebar h4 {
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin: 0 0 10px 20px;
+    }
+
+    .sidebar a {
+      padding: 12px 20px;
+      display: block;
+      color: white;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+
+    .sidebar a:hover {
+      background: #5a0000;
+    }
+
+    /* --- CONTEÚDO PRINCIPAL --- */
+    main {
+      margin-left: 220px;
+      padding: 20px;
+      flex: 1;
+      transition: margin-left 0.3s ease;
+    }
+
+    .card {
+      background: white;
+      border-radius: 6px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: #8b0000;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background: #f5f5f5;
+      font-weight: bold;
+    }
+
+    /* --- HAMBURGER --- */
+    .hamburger {
+      display: none;
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      cursor: pointer;
+      z-index: 1002;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 28px;
+      height: 3px;
+      margin: 5px 0;
+      background: white;
+      transition: 0.3s ease;
+    }
+
+    /* --- OVERLAY --- */
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease;
+      z-index: 1000;
+    }
+
+    .overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* --- RESPONSIVIDADE --- */
+    @media (max-width: 768px) {
+      .sidebar {
+        left: -220px;
+      }
+
+      .sidebar.active {
+        left: 0;
+      }
+
+      main {
+        margin-left: 0;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="hamburger" onclick="toggleSidebar()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="user">👤 username@email.com</div>
+    <div class="logout">🔑 Sair</div>
+  </div>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <div class="logo">
+      <img src="https://via.placeholder.com/100x100" alt="Logo">
+    </div>
+    <h4>Seção do menu</h4>
+    <a href="#">📦 Produtos</a>
+    <a href="#">📊 Stock disponível</a>
+    <a href="#">📈 Dados Estatísticos</a>
+  </aside>
+
+  <!-- OVERLAY -->
+  <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+  <!-- CONTEÚDO -->
+  <main>
+    <div class="card">
+      <h2>Teste</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, dolore.</p>
+      <button style="background:#8b0000;color:white;border:none;padding:8px 12px;border-radius:4px;">Link</button>
+      <button style="background:none;color:#8b0000;border:1px solid #8b0000;padding:8px 12px;border-radius:4px;">Link</button>
+    </div>
+
+    <div class="card">
+      <h2>Lorem ipsum dolor sit amet</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ipsam.</p>
+    </div>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Joao</td><td>20</td><td>masculino</td></tr>
+          <tr><td>Joao</td><td>20</td><td>masculino</td></tr>
+          <tr><td>Joao</td><td>20</td><td>masculino</td></tr>
+          <tr><td>Joao</td><td>20</td><td>masculino</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <script>
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('active');
+      document.getElementById('overlay').classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>
