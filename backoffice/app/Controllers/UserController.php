@@ -28,6 +28,7 @@ class UserController extends BaseController
         //$response = $users->where('id', $id)->first(); primeiro resultado
         // $response = $users->find($id); buca pelo id
         $response = $users->find([1, 3, 5]); // busca uma lista
+
         $data = [
             'title' => 'Usuário',
             'users' => $response

@@ -9,8 +9,6 @@ use CodeIgniter\Router\RouteCollection;
 
 
 $routes->get("/", [MainController::class, 'index']);
-$routes->get("/reservado", [MainController::class, 'reservado']);
 
 $routes->get("/login", [MainController::class, 'login']);
 $routes->post("/login_submit", [MainController::class, 'login_submit']);
-$routes->get("/logout", [MainController::class, 'logout']);
