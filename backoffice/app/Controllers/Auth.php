@@ -7,8 +7,23 @@ use CodeIgniter\HTTP\ResponseInterface;
 
 class Auth extends BaseController
 {
-    public function index()
+    public function login()
     {
-        return view("auth/login_frm.php");
+        return view("auth/login");
+    }
+
+    public function login_post()
+    {
+        return view("auth/login");
+    }
+
+    public function register()
+    {
+        return view("auth/login");
+    }
+
+    public function logout()
+    {
+        return view("auth/login");
     }
 }
