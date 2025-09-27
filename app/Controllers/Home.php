@@ -6,6 +6,7 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('dashboard/home');
+        $data['user'] = (object) session()->get('user');
+        return view('dashboard/home', $data);
     }
 }

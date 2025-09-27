@@ -6,8 +6,8 @@
         <img src="<?= base_url("assets/images/logo.png") ?>" alt="" class="img-fluid" srcset="" width="48px">
     </div>
     <nav class="d-flex">
-        <i class="fa-solid fa-user"></i> username@email.com
-        <i class="fa fa-ellipsis-v mx-2" aria-hidden="true"></i>
-        <a href="" class="me-2"><i class="fa fa-sign-out" aria-hidden="true"></i> Sair</a>
+        <i class="fa-solid fa-user me-2"></i> <?= $user->name ?>
+        <i class="fa fa-ellipsis-v mx-3" aria-hidden="true"></i>
+        <a href="<?= site_url("auth/logout") ?>" class="me-2"><i class="fa fa-sign-out" aria-hidden="true"></i> Sair</a>
     </nav>
 </header>

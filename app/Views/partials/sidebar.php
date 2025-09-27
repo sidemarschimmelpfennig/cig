@@ -1,5 +1,5 @@
-<p class="menu-group">Seção do menu</p>
+<p class="menu-group mb-3 "><?= $user->restaurant_name ?></p>
 
 <a href=""><i class="fa-solid fa-burger me-3"></i> Produtos</a>
-<a href=""><i class="fa-solid fa-layer-group me-3 "></i>Stoke disponivel</a>
-<a href=""><i class="fa-solid fa-chart-column me-3 "></i>Dados Estatisticos</a>
+<!-- <a href=""><i class="fa-solid fa-layer-group me-3 "></i>Stoke disponivel</a>
+<a href=""><i class="fa-solid fa-chart-column me-3 "></i>Dados Estatisticos</a> -->

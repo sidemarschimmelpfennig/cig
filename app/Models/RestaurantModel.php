@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class UserModel extends Model
+class RestaurantModel extends Model
 {
-    protected $table = 'users';
+    protected $table = 'restaurants';
     protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
     protected $returnType = 'object';
     protected $useSoftDeletes = false;
     protected $protectFields = true;
-    protected $allowedFields = ['lastedlogin'];
+    protected $allowedFields = [];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;
@@ -43,31 +43,4 @@ class UserModel extends Model
     protected $afterFind = [];
     protected $beforeDelete = [];
     protected $afterDelete = [];
-
-    public function check_for_login($username, $password, $id_restaurant)
-    {
-        //where clauses 
-
-        $where = [
-            'username' => $username,
-            'id_restaurant' => $id_restaurant,
-            'blocked_until' => null,
-            'active' => 1,
-            'deleted_at' => null
-        ];
-
-        $user = $this->where($where)->first();
-
-        if (empty($user)) { // se não achou usuário, falha
-            return false;
-        }
-
-        if (!password_verify($password, $user->password_hash)) {
-            return false;
-        }
-
-        $this->update($user->id, ['lastedlogin' => date('Y-m-d H:i:s')]);
-
-        return $user;
-    }
 }

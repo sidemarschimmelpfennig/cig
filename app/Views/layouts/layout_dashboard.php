@@ -19,13 +19,14 @@
 </head>
 
 <body>
+    <div class="overlay"></div>
     <?= $this->include('partials/navbar') ?>
 
     <main class="d-flex main-component">
         <aside class="main-menu p-2" id="sidebar">
             <?= $this->include('partials/sidebar') ?>
         </aside>
-        <div class="content p-2">
+        <div class="content p-2" ">
             <?= $this->renderSection("content") ?>
         </div>
 
@@ -33,15 +34,20 @@
 
     <?= $this->include('partials/footer') ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-    <script>
-        document.querySelector(".btn-main-menu").addEventListener("click", () => {
-            document.querySelector(".main-menu").classList.toggle("show")
-            document.querySelector(".content").classList.toggle("show")
-        })
-    </script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+            </script>
+            <script>
+                document.querySelector(".btn-main-menu").addEventListener("click", () => {
+                    document.querySelector(".main-menu").classList.toggle("show")
+                    document.querySelector(".content").classList.toggle("show")
+                })
+
+                document.querySelector(".content").addEventListener("click", () => {
+                    document.querySelector(".main-menu").classList.remove("show");
+                    document.querySelector(".content").classList.remove("show");
+                });
+            </script>
 </body>
 
 </html>

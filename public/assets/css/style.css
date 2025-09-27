@@ -37,6 +37,7 @@ body {
     background: var(--top-bar-bg-color);
     color: var(--top-bar-fg-color);
     padding: 10px;
+    max-height: 65px;
 }
 
 .top-bar a {
@@ -70,7 +71,7 @@ body {
     min-height: 90vh;
     min-width: 250px;
     max-width: 250px;
-    z-index: 1000;
+    z-index: 999;
     transition: transform 0.3s ease;
 }
 
@@ -146,17 +147,24 @@ body {
 
 @media (max-width: 768px) {
     .main-menu{
+        top:65px;
         position: fixed;
         transform: translateX(-250px);
     }
-
+    .content{
+        flex: 1;
+        cursor: pointer;
+    }
     .btn-main-menu{
         display: flex;
     }
-
+    .top-bar{
+        position: fixed;
+        width: 100vw;
+    }
     .main-menu.show{
         transform: translateX(0);
-        
+        box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
     }
 
 }
