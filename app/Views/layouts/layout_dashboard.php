@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cig Burger</title>
+    <title>Cig Burger - <?= !empty($title) ? $title : '' ?> </title>
 
     <link rel="stylesheet" href="<?= base_url("assets/library/bootstrap/bootstrap.min.css") ?>">
 
@@ -19,12 +19,15 @@
 </head>
 
 <body>
+    <?php $user = (object) session()->get('user'); ?>
+
+
     <div class="overlay"></div>
-    <?= $this->include('partials/navbar') ?>
+    <?= view('partials/navbar', ['user' => $user]) ?>
 
     <main class="d-flex main-component">
         <aside class="main-menu p-2" id="sidebar">
-            <?= $this->include('partials/sidebar') ?>
+            <?= view('partials/sidebar', ['user' => $user]) ?>
         </aside>
         <div class="content p-2" ">
             <?= $this->renderSection("content") ?>

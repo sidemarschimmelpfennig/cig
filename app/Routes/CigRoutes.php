@@ -2,6 +2,7 @@
 
 use App\Controllers\Auth;
 use App\Controllers\Home;
+use App\Controllers\ProductsController;
 use CodeIgniter\Router\RouteCollection;
 
 
@@ -19,3 +20,7 @@ $routes->group("auth", function ($routes) {
     $routes->get("register", [Auth::class, 'register']);
 });
 
+
+//Products Routes
+$routes->get('/products', [ProductsController::class, 'index']);
+$routes->get('/products/new', [ProductsController::class, 'new_product']);
