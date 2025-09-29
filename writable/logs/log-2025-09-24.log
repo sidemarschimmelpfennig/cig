@@ -1,0 +1,245 @@
+CRITICAL - 2025-09-24 20:54:10 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::logout()
+[Method: CLI, Route: make:migration]
+in APPPATH\Routes\CigRoutes.php on line 15.
+ 1 SYSTEMPATH\Router\RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Routes\CigRoutes.php(12): CodeIgniter\Router\RouteCollection->group('/auth', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\workspace\\projects\\cig_burger\\backoffice\\app\\Routes\\CigRoutes.php')
+ 4 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 6 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 7 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-09-24 20:54:41 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::logout()
+[Method: CLI, Route: make:migration]
+in APPPATH\Routes\CigRoutes.php on line 15.
+ 1 SYSTEMPATH\Router\RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Routes\CigRoutes.php(12): CodeIgniter\Router\RouteCollection->group('/auth', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\workspace\\projects\\cig_burger\\backoffice\\app\\Routes\\CigRoutes.php')
+ 4 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 6 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 7 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-09-24 20:55:48 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::logout()
+[Method: CLI, Route: make:migration]
+in APPPATH\Routes\CigRoutes.php on line 14.
+ 1 SYSTEMPATH\Router\RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Routes\CigRoutes.php(11): CodeIgniter\Router\RouteCollection->group('/auth', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\workspace\\projects\\cig_burger\\backoffice\\app\\Routes\\CigRoutes.php')
+ 4 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 6 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 7 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-09-24 20:56:12 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::logout()
+[Method: CLI, Route: make:migration]
+in APPPATH\Routes\CigRoutes.php on line 14.
+ 1 SYSTEMPATH\Router\RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Routes\CigRoutes.php(11): CodeIgniter\Router\RouteCollection->group('/auth', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\workspace\\projects\\cig_burger\\backoffice\\app\\Routes\\CigRoutes.php')
+ 4 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 6 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 7 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-09-24 20:56:38 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::logout()
+[Method: CLI, Route: make:migration]
+in APPPATH\Routes\CigRoutes.php on line 14.
+ 1 SYSTEMPATH\Router\RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Routes\CigRoutes.php(11): CodeIgniter\Router\RouteCollection->group('/auth', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\workspace\\projects\\cig_burger\\backoffice\\app\\Routes\\CigRoutes.php')
+ 4 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 6 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 7 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-09-24 20:56:51 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::logout()
+[Method: CLI, Route: make:migration]
+in APPPATH\Routes\CigRoutes.php on line 14.
+ 1 SYSTEMPATH\Router\RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Routes\CigRoutes.php(11): CodeIgniter\Router\RouteCollection->group('/auth', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\workspace\\projects\\cig_burger\\backoffice\\app\\Routes\\CigRoutes.php')
+ 4 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 6 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 7 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-09-24 20:58:00 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::logout()
+[Method: CLI, Route: make:migration]
+in APPPATH\Routes\CigRoutes.php on line 14.
+ 1 SYSTEMPATH\Router\RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Routes\CigRoutes.php(11): CodeIgniter\Router\RouteCollection->group('/auth', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\workspace\\projects\\cig_burger\\backoffice\\app\\Routes\\CigRoutes.php')
+ 4 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 6 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 7 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2025-09-24 21:16:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DATE_TIME NULL,
+	`activer` INT(1) NOT NULL,
+	`code` VARCHAR(20) NOT NULL,
+	`last' at line 9 in D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\workspace\projects\cig_burger\backoffice\app\Database\Migrations\2025-09-24-210758_CreateUsersTable.php(78): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateUsersTable->up()
+#6 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\workspace\projects\cig_burger\backoffice\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-09-24 21:17:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DATE_TIME NULL,
+	`active` INT(1) NOT NULL,
+	`code` VARCHAR(20) NOT NULL,
+	`last_' at line 9 in D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\workspace\projects\cig_burger\backoffice\app\Database\Migrations\2025-09-24-210758_CreateUsersTable.php(78): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateUsersTable->up()
+#6 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\workspace\projects\cig_burger\backoffice\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-09-24 21:18:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DATE_TIME NULL,
+	`active` INT(1) NOT NULL,
+	`code` VARCHAR(20) NOT NULL,
+	`last_' at line 9 in D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\workspace\projects\cig_burger\backoffice\app\Database\Migrations\2025-09-24-210758_CreateUsersTable.php(77): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateUsersTable->up()
+#6 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\workspace\projects\cig_burger\backoffice\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-09-24 21:20:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DATE_TIME NULL,
+	`active` INT(1) NOT NULL,
+	`code` VARCHAR(20) NOT NULL,
+	`lastl' at line 9 in D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\workspace\projects\cig_burger\backoffice\app\Database\Migrations\2025-09-24-210758_CreateUsersTable.php(77): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateUsersTable->up()
+#6 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\workspace\projects\cig_burger\backoffice\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-09-24 21:20:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DATE_TIME NULL,
+	`active` INT(1) NOT NULL,
+	`code` VARCHAR(20) NOT NULL,
+	`laste' at line 9 in D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\workspace\projects\cig_burger\backoffice\app\Database\Migrations\2025-09-24-210758_CreateUsersTable.php(77): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateUsersTable->up()
+#6 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\workspace\projects\cig_burger\backoffice\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-09-24 21:37:52 --> mysqli_sql_exception: Table 'database_burger.restaurant' doesn't exist in D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `re...', 0)
+#1 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1841): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', NULL, false)
+#4 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2230): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\workspace\projects\cig_burger\backoffice\app\Database\Seeds\RestaurantSeed.php(38): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\Seeder.php(149): App\Database\Seeds\RestaurantSeed->run()
+#7 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\workspace\projects\cig_burger\backoffice\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-09-24 21:39:09 --> mysqli_sql_exception: Unknown column 'phone' in 'field list' in D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1841): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', NULL, false)
+#4 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2230): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\workspace\projects\cig_burger\backoffice\app\Database\Seeds\UserSeed.php(85): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\Seeder.php(149): App\Database\Seeds\UserSeed->run()
+#7 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\workspace\projects\cig_burger\backoffice\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-09-24 21:39:27 --> mysqli_sql_exception: Table 'database_burger.user' doesn't exist in D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1841): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', NULL, false)
+#4 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2230): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\workspace\projects\cig_burger\backoffice\app\Database\Seeds\UserSeed.php(85): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\Seeder.php(149): App\Database\Seeds\UserSeed->run()
+#7 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\workspace\projects\cig_burger\backoffice\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-09-24 21:39:57 --> mysqli_sql_exception: Unknown column 'phone' in 'field list' in D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1841): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', NULL, false)
+#4 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2230): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\workspace\projects\cig_burger\backoffice\app\Database\Seeds\UserSeed.php(85): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\Seeder.php(149): App\Database\Seeds\UserSeed->run()
+#7 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\workspace\projects\cig_burger\backoffice\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-09-24 21:43:14 --> mysqli_sql_exception: Table 'restaurants' already exists in D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 D:\workspace\projects\cig_burger\backoffice\app\Database\Migrations\2025-09-24-205920_CreateRestaurantsTable.php(59): CodeIgniter\Database\Forge->createTable('restaurants')
+#5 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateRestaurantsTable->up()
+#6 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\workspace\projects\cig_burger\backoffice\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\workspace\projects\cig_burger\backoffice\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}

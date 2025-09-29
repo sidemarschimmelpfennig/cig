@@ -1,0 +1,282 @@
+DEBUG - 2025-09-27 00:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 01:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 01:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 01:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 01:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-27 02:16:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/product/index.php"
+[Method: GET, Route: products]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/product/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/product/index', [], true)
+ 3 APPPATH\Controllers\ProductsController.php(17): view('dashboard/product/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\workspace\\projects\\cig_burger\\public\\index.php')
+DEBUG - 2025-09-27 02:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-27 02:17:08 --> ErrorException: Undefined variable $user
+[Method: GET, Route: products]
+in APPPATH\Views\partials\navbar.php on line 9.
+ 1 APPPATH\Views\partials\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\workspace\\projects\\cig_burger\\app\\Views\\partials\\navbar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\partials\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 5 APPPATH\Views\layouts\layout_dashboard.php(23): CodeIgniter\View\View->include('partials/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\layouts\\layout_dashboard.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/layout_dashboard', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/products/index', [], true)
+10 APPPATH\Controllers\ProductsController.php(17): view('dashboard/products/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('D:\\workspace\\projects\\cig_burger\\public\\index.php')
+DEBUG - 2025-09-27 02:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-27 02:22:39 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: products]
+in APPPATH\Views\layouts\layout_dashboard.php on line 22.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/layout_dashboard', [], true)
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/products/index', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(16): view('dashboard/products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\workspace\\projects\\cig_burger\\public\\index.php')
+DEBUG - 2025-09-27 02:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-27 02:22:56 --> ErrorException: Array to string conversion
+[Method: GET, Route: products]
+in APPPATH\Views\layouts\layout_dashboard.php on line 22.
+ 1 APPPATH\Views\layouts\layout_dashboard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\workspace\\projects\\cig_burger\\app\\Views\\layouts\\layout_dashboard.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\layouts\\layout_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/layout_dashboard', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/products/index', [], true)
+ 6 APPPATH\Controllers\ProductsController.php(16): view('dashboard/products/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\workspace\\projects\\cig_burger\\public\\index.php')
+DEBUG - 2025-09-27 02:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-27 02:23:17 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: products]
+in APPPATH\Views\layouts\layout_dashboard.php on line 24.
+ 1 APPPATH\Views\layouts\layout_dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'D:\\workspace\\projects\\cig_burger\\app\\Views\\layouts\\layout_dashboard.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\layouts\\layout_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/layout_dashboard', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/products/index', [], true)
+ 6 APPPATH\Controllers\ProductsController.php(16): view('dashboard/products/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\workspace\\projects\\cig_burger\\public\\index.php')
+DEBUG - 2025-09-27 02:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-27 02:31:15 --> ErrorException: Undefined variable $user
+[Method: GET, Route: products]
+in APPPATH\Views\partials\navbar.php on line 9.
+ 1 APPPATH\Views\partials\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\workspace\\projects\\cig_burger\\app\\Views\\partials\\navbar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\partials\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 5 APPPATH\Views\layouts\layout_dashboard.php(24): CodeIgniter\View\View->include('partials/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\layouts\\layout_dashboard.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/layout_dashboard', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/products/index', [], true)
+10 APPPATH\Controllers\ProductsController.php(16): view('dashboard/products/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('D:\\workspace\\projects\\cig_burger\\public\\index.php')
+DEBUG - 2025-09-27 02:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-27 02:32:05 --> ErrorException: Undefined variable $user
+[Method: GET, Route: products]
+in APPPATH\Views\partials\navbar.php on line 9.
+ 1 APPPATH\Views\partials\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\workspace\\projects\\cig_burger\\app\\Views\\partials\\navbar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\partials\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 5 APPPATH\Views\layouts\layout_dashboard.php(24): CodeIgniter\View\View->include('partials/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\layouts\\layout_dashboard.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/layout_dashboard', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/products/index', [], true)
+10 APPPATH\Controllers\ProductsController.php(16): view('dashboard/products/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('D:\\workspace\\projects\\cig_burger\\public\\index.php')
+DEBUG - 2025-09-27 02:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-27 02:32:06 --> ErrorException: Undefined variable $user
+[Method: GET, Route: products]
+in APPPATH\Views\partials\navbar.php on line 9.
+ 1 APPPATH\Views\partials\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\workspace\\projects\\cig_burger\\app\\Views\\partials\\navbar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\partials\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 5 APPPATH\Views\layouts\layout_dashboard.php(24): CodeIgniter\View\View->include('partials/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\layouts\\layout_dashboard.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/layout_dashboard', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/products/index', [], true)
+10 APPPATH\Controllers\ProductsController.php(16): view('dashboard/products/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('D:\\workspace\\projects\\cig_burger\\public\\index.php')
+DEBUG - 2025-09-27 02:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-27 02:32:44 --> ErrorException: Undefined variable $user
+[Method: GET, Route: products]
+in APPPATH\Views\partials\navbar.php on line 9.
+ 1 APPPATH\Views\partials\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\workspace\\projects\\cig_burger\\app\\Views\\partials\\navbar.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\partials\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 5 APPPATH\Views\layouts\layout_dashboard.php(24): CodeIgniter\View\View->include('partials/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\layouts\\layout_dashboard.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/layout_dashboard', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/products/index', [], true)
+10 APPPATH\Controllers\ProductsController.php(16): view('dashboard/products/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('D:\\workspace\\projects\\cig_burger\\public\\index.php')
+DEBUG - 2025-09-27 02:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-27 02:33:45 --> ErrorException: Undefined variable $user
+[Method: GET, Route: products]
+in APPPATH\Views\layouts\layout_dashboard.php on line 26.
+ 1 APPPATH\Views\layouts\layout_dashboard.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\workspace\\projects\\cig_burger\\app\\Views\\layouts\\layout_dashboard.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\layouts\\layout_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/layout_dashboard', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/products/index', [], true)
+ 6 APPPATH\Controllers\ProductsController.php(16): view('dashboard/products/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\workspace\\projects\\cig_burger\\public\\index.php')
+DEBUG - 2025-09-27 02:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-27 02:34:46 --> ErrorException: Undefined variable $user
+[Method: GET, Route: products]
+in APPPATH\Views\partials\navbar.php on line 6.
+ 1 APPPATH\Views\partials\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\workspace\\projects\\cig_burger\\app\\Views\\partials\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\partials\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 5 APPPATH\Views\layouts\layout_dashboard.php(26): CodeIgniter\View\View->include('partials/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('D:\\workspace\\projects\\cig_burger\\app\\Views\\layouts\\layout_dashboard.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/layout_dashboard', [], true)
+ 9 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/products/index', [], true)
+10 APPPATH\Controllers\ProductsController.php(16): view('dashboard/products/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('D:\\workspace\\projects\\cig_burger\\public\\index.php')
+DEBUG - 2025-09-27 02:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-27 02:55:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/layout_main.php"
+[Method: GET, Route: products/new]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/layout_main.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/layout_main', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/products/new_product', [], true)
+ 4 APPPATH\Controllers\ProductsController.php(26): view('dashboard/products/new_product', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->new_product()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\workspace\\projects\\cig_burger\\public\\index.php')
+DEBUG - 2025-09-27 02:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 02:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 03:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 03:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 03:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 03:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 03:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 03:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 03:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 03:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 03:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-27 03:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
